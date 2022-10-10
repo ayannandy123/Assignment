@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="card card1">
+        <app-c1 [text]="value"></app-c1>
+    </div>
+    <div class="card card2">
+        <app-c2 [text]="value"></app-c2>
+
+    </div>
+    <div class="input">
+        <input type="text" name="" id="" #C (keyup)="onChange(C.value)">
+    </div>
+    <br>
+    <div class="flex">
+        <div class="card card3">
+            <app-c3 [text]="value"></app-c3>
+    
+        </div>
+        <div class="card card4">
+            <app-c4 [text]="value"></app-c4>
+        </div>
+    </div>
+ 
+</div>

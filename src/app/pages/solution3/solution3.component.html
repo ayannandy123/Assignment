@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="input">
+        <input type="text" name="" id="" [(ngModel)]="number">
+
+    </div>
+    <div class="card" *ngFor="let item of input,index as i">
+        <div class="input">
+            <input type="text" name="" id="" [(ngModel)]="item.phoneNumber">
+            <button class="danger" (click)="remove(i)">Delete</button>
+        </div>
+    </div>
+    <button (click)="add()">Add</button>
+    <br>
+    <button (click)="submit()">Submit</button>
+</div>

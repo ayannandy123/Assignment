@@ -1,0 +1,44 @@
+.card{
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+   overflow: auto;
+}
+.card1{
+ float: left;
+
+}
+.card2{
+    float: right;
+}
+.input {
+    margin: auto;
+    display: block;
+    margin: auto;
+    width: 20%;
+    /* height: 68%; */
+    /* margin: auto; */
+    /* margin-top: 150px; */
+    top: 43px;
+    float: none;
+    top: 41px;
+    position: relative;
+    top: 250px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 387px;
+}
+
+.card3{
+    // height: 150px;
+    // width: 150px;
+    position: relative;
+    right: 380px;
+}
+.card4{
+    position: relative;
+    left: 380px;
+}
